@@ -1,4 +1,15 @@
-# jkt48
+# JKT48
+
+Redesign website JKT48 to be look modern, Made with Vue.JS and Vuetify.
+**Static Website / Prototype**
+
+[Demo](https://jekate48.netlify.app)
+
+## To Do
+- [x] Homepage
+- [ ] Member Profile Page
+- [ ] My Page
+- [ ] And More
 
 ## Project setup
 ```

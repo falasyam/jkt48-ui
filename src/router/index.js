@@ -8,7 +8,8 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: Home,
+    meta: {title: 'JKT48 Fansite'}
   },
   {
     path: '/about',
@@ -25,5 +26,10 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes
 })
+
+router.beforeEach((to, from, next) => {
+  document.title = to.meta.title
+  next()
+});
 
 export default router
