@@ -49,9 +49,8 @@
       <span class="red--text font-weight-black headline">Member</span>
       <div class="py-2"></div>
       <v-tabs fixed-tabs color="red darken-4">
-        <v-tab>Team J</v-tab>
-        <v-tab>Team KIII</v-tab>
-        <v-tab>Team T</v-tab>
+        <v-tab>Member</v-tab>
+        <v-tab>Trainee</v-tab>
       </v-tabs>
       <div class="py-3"></div>
         <v-slide-group
@@ -138,37 +137,32 @@ export default {
     return {
       items: [
         {
-          src: 'https://jkt48.com/images/banner.home.peek-a-boo-id.jpg',
+          src: 'https://jkt48.com/images/banner.home.flowerfulpb-id.jpg',
         },
         {
-          src: 'https://jkt48.com/images/banner.home.fly-team-t.jpg',
+          src: 'https://jkt48.com/images/banner.home.jkt48v.jpg',
         },
         {
-          src: 'https://jkt48.com/images/banner.home.rapsodi.jpg',
+          src: 'https://jkt48.com/images/banner.home.tokopedia.jpg',
         }
       ],
       model: null,
       member: [
-        { name: 'Adriani Elisabeth', src: 'https://jkt48.com/profile/adriani_elizabeth_s.jpg?r=20170308', link: 'jkt48.com'},
-        { name: 'Amanina Afiqah', src: 'https://jkt48.com/profile/amanina_afiqah_s.jpg?r=20170308'},
-        { name: 'Anindhita Rahma Cahyadi', src: 'https://jkt48.com/profile/aninditha_rahma_cahyadi2_s.jpg?r=20170308'},
-        { name: 'Ariella Chalista Ichwan', src: 'https://jkt48.com/profile/ariel_s.jpg?r=20170308'},
-        { name: 'Azizi Asadel', src: 'https://jkt48.com/profile/azizi_asadel_s.jpg?r=20170308'},
-        { name: 'Cindy Hapsari', src: 'https://jkt48.com/profile/cindy_hapsari_s.jpg?r=20170308'},
-        { name: 'Diani Amalia Ramadhani', src: 'https://jkt48.com/profile/diani_s.jpg?r=20170308'},
-        { name: 'Eve Antoinette Ichwan', src: 'https://jkt48.com/profile/eve_antoinette_s.jpg?r=20170308'},
-        { name: 'Feni Fitriyanti', src: 'https://jkt48.com/profile/feni_fitriyanti_s.jpg?r=20170308'},
-        { name: 'Fransisca Saraswati Puspa Dewi', src: 'https://jkt48.com/profile/fransisca_saraswati_puspa_dewi_s.jpg?r=20170308'},
-        { name: 'Frieska Anastasia Laksani', src: 'https://jkt48.com/profile/frieska_anastasia_laksani_s.jpg?r=20170308'},
-        { name: 'Gabriel Angelina', src: 'https://jkt48.com/profile/gabriel_angelina_s.jpg?r=20170308'},
-        { name: 'Gabriella Margareth Warouw', src: 'https://jkt48.com/profile/gabriella_s.jpg?r=20170308'},
-        { name: 'Nabila Fitriana', src: 'https://jkt48.com/profile/nabila_fitriana_s.jpg?r=20170308'},
-        { name: 'Nadila Cindi Wantari', src: 'https://jkt48.com/profile/nadila_cindi_wantari_s.jpg?r=20170308'},
-        { name: 'Ni Made Ayu Vania Aurellia', src: 'https://jkt48.com/profile/made_ayu_vania_aurellia_s.jpg?r=20170308'},
-        { name: 'Riska Amelia Putri', src: 'https://jkt48.com/profile/riska_amelia_putri_s.jpg?r=20170308'},
-        { name: 'Rona Ariesta Anggraeni', src: 'https://jkt48.com/profile/rona_ariesta_anggraeni_s.jpg?r=20170308'},
-        { name: 'Sania Julia', src: 'https://jkt48.com/profile/sania_julia_s.jpg?r=20170308'},
-      ],
+        { name: 'Adzana Shaliha', src: 'https://jkt48.com/profile/adzana_shaliha.jpg?v=20230116', link: 'jkt48.com'},
+        { name: 'Amanda Sukma', src: 'https://jkt48.com/profile/amanda_sukma.jpg?v=20230530'},
+        { name: 'Angelina Christy', src: 'https://jkt48.com/profile/angelina_christy.jpg?v=20230116'},
+        { name: 'Aurellia', src: 'https://jkt48.com/profile/aurellia.jpg?v=20230531'},
+        { name: 'Azizi Asadel', src: 'https://jkt48.com/profile/azizi_asadel.jpg?v=20230116'},
+        { name: 'Callista Alifia', src: 'https://jkt48.com/profile/callista_alifia.jpg?v=20230531'},
+        { name: 'Cornelia Vanisa', src: 'https://jkt48.com/profile/cornelia_vanisa.jpg?v=20230116'},
+        { name: 'Febriola Sinambela', src: 'https://jkt48.com/profile/febriola_sinambela.jpg?v=20230116'},
+        { name: 'Feni Fitriyanti', src: 'https://jkt48.com/profile/feni_fitriyanti.jpg?v=20230116'},
+        { name: 'Fiony Alveria', src: 'https://jkt48.com/profile/fiony_alveria.jpg?v=20230116'},
+        { name: 'Flora Shafiq', src: 'https://jkt48.com/profile/flora_shafiq.jpg?v=20230116'},
+        { name: 'Freya Jayawardana', src: 'https://jkt48.com/profile/freya_jayawardana.jpg?v=20230116'},
+        { name: 'Gabriela Abigail', src: 'https://jkt48.com/profile/gabriela_abigail.jpg?v=20230531'},
+        { name: 'Gita Sekar Andarini', src: 'https://jkt48.com/profile/gita_sekar_andarini.jpg?v=20230116'},
+        ],
       links: [
         'Home',
         'News',
